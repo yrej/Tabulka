@@ -45,3 +45,6 @@ th{
     margin-right: auto;
     width: 50%;
   }
+.logo{
+    max-height: 40px;
+}
