@@ -1,3 +1,8 @@
+body{
+    background-image: url(png/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 h1,h2{
     color: rgb(255, 0, 0);
     text-align: center;
@@ -12,6 +17,7 @@ main{
 table,th,td{
     border: 2px solid black;
     border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.123);
 }
 table{
     width: 50%;
@@ -39,12 +45,12 @@ th{
 .bronz{
     background-color: #cd7f32
 }
-.center2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
 .logo{
     max-height: 40px;
+}
+.logo2{
+    width: 180px;
+}
+.podpis{
+    color: white;
 }
